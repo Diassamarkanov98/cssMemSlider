@@ -147,9 +147,6 @@ label, a{
 	display: flex;
 	justify-content: space-between;
 }
-
-
-/* text slider */
 #text_slides{
 	text-align: left;
 }
@@ -249,18 +246,13 @@ article span{
 	display: block;
 	margin: 0 auto;
 	text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
-	/* Clip Background Image */
 	background: url(./animated-text-fill.png) repeat-y;
 	-webkit-background-clip: text;
-	/* Animate Background Image */
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: aitf 80s linear infinite;
-	/* Activate hardware acceleration for smoother animations */
 	-webkit-transform: translate3d(0, 0, 0);
 	-webkit-backface-visibility: hidden;
   }
-  
-  /* Animate Background Image */
   @-webkit-keyframes aitf {
 	0% {
 	  background-position: 0% 50%;
@@ -269,7 +261,6 @@ article span{
 	  background-position: 100% 50%;
 	}
   }
-/* text animation */
 article > span{ 
 	width: 100%;
 	display: inline-block;
