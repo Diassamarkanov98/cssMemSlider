@@ -31,7 +31,7 @@ body{
 }
 .image article{ 
 	width: 100%;
-	height: 625px;
+	height: 80vh;
 	border-radius: 2%/4%;
 }
 .image article:nth-child(1){
@@ -197,6 +197,11 @@ article span{
 	}
 	#active{
 		text-align: center;
+	}
+	.image article{ 
+		width: 100%;
+		height: 20vh;
+		border-radius: 2%/4%;
 	}
 }
 #slider{
